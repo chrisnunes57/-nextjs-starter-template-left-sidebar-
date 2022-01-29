@@ -7,7 +7,8 @@ function Navigation() {
     const router = useRouter();
 
     return (
-        <nav className={"container " + styles.nav}>
+        <nav className={styles.nav}>
+            <Link href="/"><h5 className={styles.link}>Chris' Notes</h5></Link>
             <ul className="">
                 <li className={(router.pathname == "/" ? styles.active : "")}>
                     <Link href="/">Home</Link>

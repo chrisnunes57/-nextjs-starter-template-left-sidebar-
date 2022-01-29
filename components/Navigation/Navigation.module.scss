@@ -2,8 +2,11 @@
 
 .nav {
 
-    max-height: $nav-height;
-    margin-bottom: $space-md;
+    background-color: $background-color-secondary;
+    min-height: 100vh;
+    padding: 1em 0;
+    min-width: 260px;
+    color: $text-color-secondary;
 
     ul {
         padding: 0;
@@ -11,11 +14,26 @@
 
     li {
         text-decoration: none;
-        display: inline-block;
-        margin-right: 20px;
+        list-style-type: none;
+
+        a {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    li, .link {
+
+        cursor: pointer;
+        padding: 4px 1em;
+
+        &:hover {
+            background-color: $background-color-active;
+        }
     }
 }
 
 .active {
-    color: red;
+    color: $text-color-primary;
+    background-color: $background-color-active;
 }

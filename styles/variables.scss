@@ -6,14 +6,25 @@ $footer-height: 100px;
 $nav-height: 4rem;
 
 // container widths
-$container-width: 1100px;
+$container-width: 800px;
+
+/*********************\
+/*      Colors       *|
+/*********************/
+
+$background-color-primary: #fff;
+$background-color-secondary: #f7f6f3;
+$background-color-active: rgba(55, 53, 47, 0.1);
+$url-highlight-color: #d7813a;
+$code-highlight-color: #eb5757;
+$text-color-secondary: rgba(25, 23, 17, 0.6);
+$text-color-primary: rgb(55, 53, 47);
+
 
 /*********************\
 /*     Typography    *|
 /*********************/
 $font-primary: "Poppins";
-
-$text-color-primary: #000000;
 
 // font sizes
 $text-base-size: 1.05em;

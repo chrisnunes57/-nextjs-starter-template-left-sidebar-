@@ -60,12 +60,17 @@ small, .text_small {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 4em auto 0 auto;
   padding: 40px;
 
+  width: $container-width;
   max-width: $container-width;
 
   &.main {
     min-height: calc(100vh - $footer-height - $nav-height - 20px);
   }
+}
+
+.app-wrapper {
+  display: flex;
 }
